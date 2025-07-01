@@ -1,0 +1,15 @@
+# Ignore virtual environments
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Environment files
+.env
