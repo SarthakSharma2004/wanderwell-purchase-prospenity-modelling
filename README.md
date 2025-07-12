@@ -1,66 +1,52 @@
-**WanderWell Customer Purchase Propensity Modeling**
-
-Prospenity modeling pipeline to analyze customer data and identify high-conversion segments for targeted travel package marketing.
+#                       🌿 WanderWell Propensity Modeling
 
 
-📊 Project Overview
-This case study builds a propensity model to predict customer purchase likelihood for WanderWell, enabling data-driven targeted marketing and improving customer segmentation.
+##          📈 Overview
 
-🗂️ Project Structure
-Data/ – Contains raw and cleaned datasets.
+WanderWell Retreats, a premium travel startup, offers curated travel experiences. With low conversion rates and high customer acquisition costs, the company seeks to transition from random outreach to data-driven marketing.
 
-Notebooks/ – EDA, preprocessing, and model training Jupyter notebooks.
+This project builds a predictive propensity model to identify high-conversion customer segments and predict the likelihood of customers purchasing the new Serenity Escape wellness package.
 
-Model/ – Saved machine learning models for predictions.
+---
 
-Requirements.txt – Dependencies for environment setup.
+##          🎯 Objectives
 
-⚙️ Technologies Used
-Python (Pandas, NumPy, Scikit-learn)
+* Conduct exploratory data analysis (EDA) to understand customer behavior and preferences.
 
-Jupyter Notebooks
+* Build a classification model to predict customer purchase propensity for the Serenity Escape package.
 
-Matplotlib & Seaborn (for visualization)
-
-🚀 How to Run
-1️⃣ Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/SarthakSharma2004/wanderwell-purchase-prospenity-modelling.git
-cd wanderwell-purchase-prospenity-modelling
-2️⃣ Create a virtual environment and activate:
-
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
-3️⃣ Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r Requirements.txt
-4️⃣ Open Jupyter notebooks:
-
-bash
-Copy
-Edit
-jupyter notebook
-Run the notebooks inside the Notebooks/ folder to follow the EDA, preprocessing, and model training workflow.
-
-🎯 Goals
-✅ Understand customer behavior through EDA.
-✅ Build a predictive model to identify high-propensity customers.
-✅ Enable targeted marketing strategies using the model’s predictions.
-
-✍️ Author
-Sarthak Sharma
+---
 
 
-📜 License
-This project is for educational and portfolio purposes.
+###         🛠️ Tools & Libraries Used
+
+* Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+
+* Jupyter Notebooks
+
+* Git & GitHub for version control
+
+
+---
+
+
+###         🔍 Exploratory Data Analysis (EDA)
+
+* Analyzed demographics, purchase history, and engagement metrics.
+
+* Identified patterns in purchase behavior across packages.
+
+* Visualized correlations between customer attributes and conversions.
+
+---
+
+
+###         🚀 Business Impact
+
+* ✅ Enables targeted, data-driven marketing for WanderWell Retreats.
+
+* ✅ Expected to improve conversion rates for Serenity Escape while reducing acquisition costs.
+
+* ✅ Framework scalable for future package launches and long-term strategy.
+
 
